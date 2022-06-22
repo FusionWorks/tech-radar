@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "radar_assets",
+  "info": {
+    "singularName": "radar-asset",
+    "pluralName": "radar-assets",
+    "displayName": "Radar Asset"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "asset": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::asset.asset"
+    },
+    "sector": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::sector.sector"
+    },
+    "ring": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::ring.ring"
+    }
+  }
+}

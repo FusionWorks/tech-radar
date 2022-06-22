@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "radars",
+  "info": {
+    "singularName": "radar",
+    "pluralName": "radars",
+    "displayName": "Radar"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    }
+  }
+}
